@@ -27,7 +27,7 @@ def getContours(mask):
         area = cv2.contourArea(contour)
 
         # Minimum area for a contour get selected
-        if area >= 500:
+        if area >= 300:
             # gives the center point location of detected target circle
             M = cv2.moments(contour)
             (x_axis,y_axis), _ = cv2.minEnclosingCircle(contour)
@@ -89,4 +89,5 @@ def play_game(play_time):
 
     print('Robo clicks:', total_click)
 
+# play_time is how many seconds we want to play
 play_game(play_time=10)
