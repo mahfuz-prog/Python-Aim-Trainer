@@ -1,5 +1,3 @@
-
-https://github.com/mahfuz-prog/Python-Aim-Trainer-Autoplay-using-computer-vision/assets/62833292/24ae56c1-55cf-4b49-9727-59496694cf69
 # Python-Aim-Trainer Autoplay using computer vision
 
 #### openCV used for computer vision and pyautogui for automation.
